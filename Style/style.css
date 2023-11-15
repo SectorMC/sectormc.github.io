@@ -177,13 +177,16 @@ label.text{
 	font-family: 'ISOCPEUR', sans-serif;
 	max-width: 100%;
 }
-p.text{
+li.text{
 	color:black;
 	font-family: 'ISOCPEUR', sans-serif;
 	font-weight: 800;
 	max-width: 100%;
 }
-a.text{
+ul{
+	max-width: 40%;
+}
+p.text{
 	color:black;
 	font-family: 'ISOCPEUR', sans-serif;
 	font-weight: 800;
