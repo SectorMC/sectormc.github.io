@@ -177,6 +177,7 @@ label.text{
 }
 li.text{
 	color: white;
+	text-align: center;
 	font-family: 'ISOCPEUR', sans-serif;
 	font-weight: 800;
 	max-width: 100%;
