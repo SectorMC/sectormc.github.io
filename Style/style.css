@@ -185,6 +185,7 @@ li.text{
 }
 ul{
 	max-width: 40%;
+	text-align: center:
 }
 p.text{
 	color:black;
@@ -198,7 +199,7 @@ details{
 	max-width: 100%;
 }
 body {
-	background: url(../no_index/wood_panel_background.png);
+	background: url(../no_index/background.png);
 	margin: 0px;
 	background-repeat: repeat;
 	display: flex;
