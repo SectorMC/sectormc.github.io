@@ -144,41 +144,41 @@ button.text:active:focus {
 	max-width: 100%;
 }
 h1.text {
-	color:black;
+	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	margin: 10px;
 }
 div.text {
-	color:black;
+	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	max-width: 100%;
 	font-weight: 800;
 }
 cite.text{
-	color:black;
+	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	font-size: larger; 
 	font-weight: 800;
 	max-width: 100%;
 }
 h2.text {
-	color:black;
+	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	max-width: 100%;
 }
 a.text{
-	color:black;
+	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	max-width: 100%;
 	font-weight: 800;
 }
 label.text{
-	color:black;
+	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	max-width: 100%;
 }
 li.text{
-	color:black;
+	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	font-weight: 800;
 	max-width: 100%;
@@ -188,7 +188,7 @@ ul{
 	text-align: center:
 }
 p.text{
-	color:black;
+	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	font-weight: 800;
 	max-width: 100%;
@@ -213,15 +213,15 @@ footer{
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	background: white;
+	background: darkgrey;
 	padding-bottom: 10px;
 }
 header{
 	position: fixed;
-`	top: 0;
+	top: 0;
 	width: 100%;
 	margin-top: 0;
-	background: white;
+	background: darkgrey;
 	padding: 10px;	
 	margin-bottom: 100%;
 }
