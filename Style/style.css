@@ -94,8 +94,6 @@ input[type="radio"]:checked + label:after {
 	opacity: 1;
 }
 .logo{
-	background-color: #ffffff;
-	background-repeat: repeat;
 	padding: 15px;
 	max-width: 100%;
 }
