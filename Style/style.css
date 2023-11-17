@@ -112,20 +112,6 @@ div#main {
 div#features {
 	margin-top: 5%;
 }
-div.column {
-	/* The background image must be 800px wide */
-	max-width: 800px;
-}
-
-figure.fluidratio {
-	padding-top: 10%;  /* slope */
-	height: 120px;  /* start height */
-	background-image: url(../no_index/background.png); 
-	/* background-image: url(http://voormedia.com/examples/amsterdam.jpg); */
-	background-size: cover;
-	-moz-background-size: cover;  /* Firefox 3.6 */
-	background-position: center;  /* Internet Explorer 7/8 */
-}
 input{
 	box-sizing: border-box;
 	max-width: 100%;
@@ -215,7 +201,8 @@ details{
 	max-width: 100%;
 }
 body {
-	/* background: url(../no_index/background.png); */
+	background: url(../no_index/background.png);
+	background-size: 100% auto;
 	margin: 0px;
 	background-repeat: repeat;
 	display: flex;
