@@ -93,25 +93,20 @@ input[type="checkbox"]:checked + label:after,
 input[type="radio"]:checked + label:after {
 	opacity: 1;
 }
-.logo{
-	padding: 15px;
-	max-width: 100%;
-}
-.header{
+/* .header{
 	max-height: 50px;
-	padding-left: 1px;
 	max-width: 100%;
-}
+} */
 .text{
 	box-sizing: border-box;
 	max-width: 100%;
 }
-div#main {
+/* div#main {
 	margin-top: 15%;
-}
+} 
 div#features {
 	margin-top: 5%;
-}
+} */
 input{
 	box-sizing: border-box;
 	max-width: 100%;
@@ -185,7 +180,7 @@ li.text{
 	font-weight: 800;
 	max-width: 100%;
 }
-ul{
+ul.text{
 	max-width: 40%;
 	text-align: center:
 }
@@ -203,8 +198,8 @@ details{
 body {
 	background: url(../no_index/background.png);
 	background-size: 100% auto;
-	width: 1400;
-	height: 500;
+	/* width: 1400;
+	height: 500; */
 	background-repeat: repeat;
 	display: flex;
 	flex-direction: column;
@@ -223,6 +218,5 @@ header{
 	width: 100%;
 	margin-top: 0;
 	background: darkgrey;
-	padding: 10px;	
-	margin-bottom: 100%;
+	/* margin-bottom: 100%; */
 }
