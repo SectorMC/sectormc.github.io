@@ -107,6 +107,9 @@ input[type="radio"]:checked + label:after {
 div#features {
 	margin-top: 5%;
 } */
+.logo {
+	height: 25%;
+}
 input{
 	box-sizing: border-box;
 	max-width: 100%;
