@@ -203,8 +203,8 @@ details{
 body {
 	background: url(../no_index/background.png);
 	background-size: 100% auto;
-	width: 100%;
-	height: 100%;
+	width: 1400px;
+	height: 500px;
 	background-repeat: repeat;
 	/* display: flex;
 	flex-direction: column; */
