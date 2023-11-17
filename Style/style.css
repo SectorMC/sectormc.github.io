@@ -202,13 +202,14 @@ details{
 }
 body {
 	background: url(../no_index/background.png);
-	background-size: 100% auto;
+	background-size: 100%;
+	width: 100%;
 	background-repeat: no-repeat;
-	display: flex;
-	flex-direction: column;
+	/* display: flex;
+	flex-direction: column; */
 	text-align: center;
-	background-attachment: fixed;
-	/* height: 500;
+	/* background-attachment: fixed;
+	height: 500;
 	width: 1400; */
 }
 footer{
