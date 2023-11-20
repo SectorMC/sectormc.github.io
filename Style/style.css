@@ -145,7 +145,7 @@ button.text:active:focus {
 h1.text {
 	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
-	margin: 10px;
+	margin-bottom: 10px;
 }
 div.text {
 	color: white;
@@ -218,9 +218,7 @@ footer{
 	padding-bottom: 10px;
 }
 header{
-	top: 0;
 	width: 100%;
 	margin-top: 0;
 	background: darkgrey;
-	margin-bottom: 100%;
 }
