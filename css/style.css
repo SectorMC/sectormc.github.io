@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'ISOCPEUR';
-	src: url('ISOCPEUR.ttf');
+	src: url('../fonts/isocpeur.ttf');
 }
 input[type="checkbox"]:checked, 
 input[type="checkbox"]:not(:checked), 
@@ -93,29 +93,17 @@ input[type="checkbox"]:checked + label:after,
 input[type="radio"]:checked + label:after {
 	opacity: 1;
 }
-/* .header{
-	max-height: 50px;
-	max-width: 100%;
-} */
-.text{
+
+.text {
 	box-sizing: border-box;
 	max-width: 100%;
 }
-/* div#main {
-	margin-top: 15%;
-} 
-div#features {
-	margin-top: 5%;
-} */
+
 .logo {
 	height: 25%;
 }
-input{
-	box-sizing: border-box;
-	max-width: 100%;
-	font-family: 'ISOCPEUR', sans-serif;
-}
-button.text{
+
+button.text {
 	appearance: none;
 	border: 0;
 	border-radius: 5px;
@@ -127,77 +115,96 @@ button.text{
 	margin: 10px;
 	max-width: 100%;
 }
+
 button.text:hover {
 	background: #5b524c;
 	max-width: 100%;
 }
-textarea.form{
-	max-width: 100%;
-}
-input.form{
-	max-width: 100%;
-}
+
 button.text:active:focus {
 	outline: none;
 	box-shadow: 0 0 0 4px #b6a895;
 	max-width: 100%;
 }
+
+textarea.form {
+	max-width: 100%;
+	box-sizing: border-box;
+	max-width: 100%;
+	font-family: 'ISOCPEUR', sans-serif;
+
+}
+
+input.form {
+	max-width: 100%;
+}
+
+label.text {
+	color: white;
+	font-family: 'ISOCPEUR', sans-serif;
+	max-width: 100%;
+}
+
 h1.text {
 	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	margin-bottom: 10px;
 }
-div.text {
+
+h2.text {
 	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	max-width: 100%;
-	font-weight: 800;
 }
-cite.text{
+
+p.text {
+	color: white;
+	font-family: 'ISOCPEUR', sans-serif;
+	font-weight: 800;
+	max-width: 100%;
+}
+
+cite.text {
 	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	font-size: larger; 
 	font-weight: 800;
 	max-width: 100%;
 }
-h2.text {
-	color: white;
-	font-family: 'ISOCPEUR', sans-serif;
-	max-width: 100%;
-}
-a.text{
+
+a.text {
 	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
 	max-width: 100%;
 	font-weight: 800;
 }
-label.text{
-	color: white;
-	font-family: 'ISOCPEUR', sans-serif;
-	max-width: 100%;
+
+ul.text {
+	max-width: 40%;
+	text-align: center:
 }
-li.text{
+
+li.text {
 	color: white;
 	text-align: center;
 	font-family: 'ISOCPEUR', sans-serif;
 	font-weight: 800;
 	max-width: 100%;
 }
-ul.text{
-	max-width: 40%;
-	text-align: center:
-}
-p.text{
+
+div.text {
 	color: white;
 	font-family: 'ISOCPEUR', sans-serif;
-	font-weight: 800;
 	max-width: 100%;
+	font-weight: 800;
 }
-details{
+
+details {
 	margin-left: 40%;
 	margin-right: 40%;
 	max-width: 100%;
 }
+
 body {
 	/* background: url(../no_index/background.png); */
 	background-color: black;
@@ -210,15 +217,16 @@ body {
 	text-align: center;
 	background-attachment: fixed;
 }
-footer{
+
+footer {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	background: darkgrey;
 	padding-bottom: 10px;
+	background: darkgrey;
 }
-header{
+
+header {
 	width: 100%;
-	margin-top: 0;
 	background: darkgrey;
 }
